@@ -1,3 +1,5 @@
 venv/
 .vscode/
 *_private*
+log/*
+!log/example_mqtt.log

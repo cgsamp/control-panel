@@ -1,0 +1,15 @@
+{
+    "mqtt": {
+        "servers": [
+            {
+                "client_id": "your_prefix_",
+                "server": "yourserver.net",
+                "user": "your_controller",
+                "password": "ControllerPassword",
+                "priority": 1
+            }
+
+        ]
+    },
+    "mqtt_topic": "/iot/controls/audio"
+}

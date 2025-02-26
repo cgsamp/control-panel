@@ -1,0 +1,89 @@
+2025-02-26 13:51:11,553 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:52:52,668 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:52:52,668 - INFO - Disconnected: Unspecified error
+2025-02-26 13:52:53,669 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:52:53,669 - INFO - Disconnected: Unspecified error
+2025-02-26 13:52:55,671 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:52:55,671 - INFO - Disconnected: Unspecified error
+2025-02-26 13:52:59,672 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:52:59,673 - INFO - Disconnected: Unspecified error
+2025-02-26 13:53:07,674 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:53:07,674 - INFO - Disconnected: Unspecified error
+2025-02-26 13:54:38,499 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:54:38,500 - INFO - Disconnected: Unspecified error
+2025-02-26 13:54:39,501 - ERROR - Failed to connect: Not authorized
+2025-02-26 13:54:39,501 - INFO - Disconnected: Unspecified error
+2025-02-26 14:00:41,044 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_controller password Controller2@
+2025-02-26 14:00:41,047 - ERROR - Failed to connect: Not authorized
+2025-02-26 14:00:41,048 - INFO - Disconnected: Unspecified error
+2025-02-26 14:00:42,049 - ERROR - Failed to connect: Not authorized
+2025-02-26 14:00:42,049 - INFO - Disconnected: Unspecified error
+2025-02-26 14:00:44,050 - ERROR - Failed to connect: Not authorized
+2025-02-26 14:00:44,051 - INFO - Disconnected: Unspecified error
+2025-02-26 14:00:48,052 - ERROR - Failed to connect: Not authorized
+2025-02-26 14:00:48,052 - INFO - Disconnected: Unspecified error
+2025-02-26 14:06:26,777 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 14:06:26,780 - INFO - Connected to MQTT Broker!
+2025-02-26 14:07:13,796 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:07:51,840 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 14:07:51,843 - INFO - Connected to MQTT Broker!
+2025-02-26 14:07:51,884 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:07:51,884 - DEBUG - {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:09:03,684 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 14:09:03,687 - INFO - Connected to MQTT Broker!
+2025-02-26 14:09:03,728 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:09:03,728 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:09:03,728 - DEBUG - Processing set_volume
+2025-02-26 14:09:03,728 - ERROR - Unknown action: {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:09:11,434 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:09:11,434 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:09:11,434 - DEBUG - Processing set_volume
+2025-02-26 14:09:11,434 - ERROR - Unknown action: {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:09:46,522 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 14:09:46,525 - INFO - Connected to MQTT Broker!
+2025-02-26 14:09:46,566 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:09:46,566 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:09:46,566 - DEBUG - Processing set_volume
+2025-02-26 14:09:46,566 - ERROR - Unknown action: {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:10:30,070 - DEBUG - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 14:10:30,078 - INFO - Connected to MQTT Broker!
+2025-02-26 14:10:30,119 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:10:30,119 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:10:30,119 - DEBUG - Processing set_volume
+2025-02-26 14:10:30,119 - DEBUG - ADJUSTING VOUME
+2025-02-26 14:10:33,882 - DEBUG - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 14:10:33,883 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 14:10:33,883 - DEBUG - Processing set_volume
+2025-02-26 14:10:33,884 - DEBUG - ADJUSTING VOUME

@@ -5,11 +5,10 @@ import network
 import json
 import time
 
-with open("config_connections.json") as f:
+with open("config_connections_private.json") as f:
     config = json.load(f)["mqtt"]
 
 server_config = min(config["servers"], key=lambda x: x["priority"])
-
 
 client_id = server_config["client_id"]+str(machine.unique_id().hex())
 

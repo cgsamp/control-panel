@@ -1,4 +1,5 @@
 {
+    "mqtt_topic": "/iot/controls/audio",
     "inputs": [
         {
             "id": 1,

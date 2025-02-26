@@ -2,7 +2,7 @@ import network
 import json
 import time
 
-with open("config_connections.json") as f:
+with open("config_connections_private.json") as f:
     config = json.load(f)["wifi"]
 
 preferred_ssid = config["networks"][0]["ssid"]
