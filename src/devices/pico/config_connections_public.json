@@ -1,0 +1,24 @@
+{
+    "mqtt": {
+        "servers": [
+            {
+                "client_id": "something_pico_",
+                "server": "mqtt.yourserver.net",
+                "user": "your_device",
+                "password": "yourpassword",
+                "priority": 1
+            }
+
+        ]
+
+    },
+
+    "wifi": {
+        "networks": [
+            {
+                "ssid": "your_ssid",
+                "passwd": "your_password",
+                "priority": 1
+            }
+    }
+}
