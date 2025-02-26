@@ -1,0 +1,142 @@
+{
+    "inputs": [
+        {
+            "id": 1,
+            "display_name": "Main Volume",
+            "location": "right_center",
+            "type": "potentiometer",
+            "polarity": "reversed",
+            "assignment": "dac_volume",
+            "wiper_pin": 26
+        },
+        {
+            "id": 2,
+            "display_name": "Source Volume",
+            "location": "right_lower",
+            "type": "potentiometer",
+            "assignment": "source_volume",
+            "polarity": "reversed",
+            "wiper_pin": 27
+        },
+        {
+            "id": 31,
+            "display_name": "Reset Treble",
+            "assignment": "reset_treble",
+            "type": "switch",
+            "subtype": "momentary",
+            "location": "center_top",
+            "pin": 16
+        },
+        {
+            "id": 32,
+            "display_name": "Reset Mid",
+            "assignment": "reset_mid",
+            "type": "switch",
+            "subtype": "momentary",
+            "location": "center_center",
+            "pin": 17
+        },
+        {
+            "id": 33,
+            "display_name": "Reset Bass",
+            "assignment": "reset_bass",
+            "type": "switch",
+            "subtype": "momentary",
+            "location": "center_bottom",
+            "pin": 18
+        },
+        {
+            "id": 21,
+            "display_name": "__na__",
+            "assignment": "unassigned",
+            "type": "switch",
+            "subtype": "toggle",
+            "location": "left_1",
+            "pin": 14
+        },
+        {
+            "id": 22,
+            "display_name": "__n/a__",
+            "assignment": "unassigned",
+            "type": "switch",
+            "subtype": "toggle",
+            "location": "left_2",
+            "pin": 13
+        },
+        {
+            "id": 23,
+            "display_name": "__n/a__",
+            "assignment": "unassigned",
+            "type": "switch",
+            "subtype": "toggle",
+            "location": "left_3",
+            "pin": 12
+        },
+        {
+            "id": 24,
+            "display_name": "TBD",
+            "assignment": "unassigned",
+            "type": "switch",
+            "subtype": "toggle",
+            "location": "left_4",
+            "pin": 11
+        },
+        {
+            "id": 25,
+            "display_name": "Mute",
+            "assignment": "mute",
+            "type": "switch",
+            "subtype": "toggle",
+            "location": "left_5",
+            "pin": 10
+        },
+        {
+            "id": 11,
+            "display_name": "Treble Adjust",
+            "location": "center_top",
+            "assignment": "treble_adjust",
+            "type": "rotary",
+            "pin_a": 14,
+            "pin_b": 9,
+            "initial_value": 0,
+            "bottom_range": -9,
+            "top_range": 9
+        },
+        {
+            "id": 12,
+            "display_name": "Mid Adjust",
+            "location": "center_center",
+            "assignment": "mid_adjust",
+            "type": "rotary",
+            "pin_a": 6,
+            "pin_b": 7,
+            "initial_value": 0,
+            "bottom_range": -9,
+            "top_range": 9
+        },
+        {
+            "id": 13,
+            "display_name": "Bass Adjust",
+            "location": "center_lower",
+            "assignment": "bass_adjust",
+            "initial_value": 0,
+            "type": "rotary",
+            "pin_a": 0,
+            "pin_b": 1,
+            "bottom_range": -9,
+            "top_range": 9
+        }
+    ],
+    "outputs": [
+        {
+            "id": "display1",
+            "display_name": "Display",
+            "assignment": "readout",
+            "location": "top_right",
+            "type": "display",
+            "subtype": "Seg7x4",
+            "scl_pin": 21,
+            "sca_pin": 20
+        }
+    ]
+}
