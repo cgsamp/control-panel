@@ -87,3 +87,4 @@
 2025-02-26 14:10:33,883 - DEBUG - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
 2025-02-26 14:10:33,883 - DEBUG - Processing set_volume
 2025-02-26 14:10:33,884 - DEBUG - ADJUSTING VOUME
+2025-02-26 18:20:47,773 - INFO - Disconnected: Unspecified error

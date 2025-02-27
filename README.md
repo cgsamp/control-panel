@@ -22,5 +22,7 @@ https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.rob
 
 ## MiniDSP
 
-https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.robust
 https://www.minidsp.com/
+https://github.com/mrene/minidsp-rs
+https://minidsp-rs.pages.dev/getting-started
+

@@ -1,13 +1,21 @@
 JSON_PAYLOAD='{
   "action": "set_volume",
-  "value": 50,
+  "value": 100,
   "device_id": "speaker_1"
 }'
 
-mosquitto_pub -d -r \
+JSON_PAYLOAD='{
+  "action": "ping"
+}'
+
+TOPIC='/iot/device/test'
+#TOPIC='lab/test-device'
+#TOPIC='/iot/controls/audio'
+
+mosquitto_pub -d \
 -u samp_device \
 -P Device2@ \
 -i samp_mosquito_pub \
 -h studio.lab.sampsoftware.net \
--t  /iot/controls/audio \
+-t  "$TOPIC" \
 -m "$JSON_PAYLOAD"

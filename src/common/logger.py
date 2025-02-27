@@ -5,8 +5,8 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s",
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("mqtt.log"),
+        logging.FileHandler("log/application.log"),
     ]
 )
 
-logger = logging.getLogger("mqtt")
+logger = logging.getLogger("app")

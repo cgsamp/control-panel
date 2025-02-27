@@ -1,8 +1,8 @@
 import time
-from logger import logger
+from common.logger import logger
+from services.minidsp.handlers import audio
 
 def process_message(client, topic, payload):
-    logger.debug(payload)
     action = payload["action"]
     logger.debug(f'Processing {action}')
 
@@ -12,5 +12,7 @@ def process_message(client, topic, payload):
         logger.error(f"Unknown action: {payload}")
 
 def set_volume(payload):
-    logger.debug(f'ADJUSTING VOUME')
+    volume = int(payload['value'])
+    logger.debug(f'ADJUSTING VOUME to {volume}')
+    audio.set_volume(volume)
 

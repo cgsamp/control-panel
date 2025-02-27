@@ -1,0 +1,693 @@
+2025-02-26 16:04:11,748 - DEBUG - audio.py:10 - Muting
+2025-02-26 16:11:23,421 - DEBUG - audio.py:5 - Setting volume to 50%
+2025-02-26 16:12:37,335 - DEBUG - audio.py:5 - Setting volume to 50%
+2025-02-26 16:14:31,414 - DEBUG - audio.py:5 - Setting volume to 50%
+2025-02-26 16:15:05,797 - DEBUG - audio.py:5 - Setting volume to 50%
+2025-02-26 16:15:05,831 - DEBUG - audio.py:14 - 
+2025-02-26 16:15:05,832 - DEBUG - audio.py:18 - Muting
+2025-02-26 18:03:23,280 - DEBUG - audio.py:5 - Setting volume to 80%
+2025-02-26 18:03:23,312 - DEBUG - audio.py:14 - 
+2025-02-26 18:03:23,312 - DEBUG - audio.py:18 - Muting
+2025-02-26 18:03:36,305 - DEBUG - audio.py:5 - Setting volume to 80%
+2025-02-26 18:03:36,331 - DEBUG - audio.py:14 - 
+2025-02-26 18:03:36,332 - DEBUG - audio.py:20 - Unmuting
+2025-02-26 18:29:01,560 - DEBUG - audio.py:5 - Setting volume to 80%
+2025-02-26 18:29:01,560 - DEBUG - audio.py:9 - Setting volume to 80% gain -102 command minidsp gain -- -102
+2025-02-26 18:29:01,586 - DEBUG - audio.py:12 - CompletedProcess(args=['minidsp', 'gain', '--', '-102'], returncode=0, stdout='', stderr='')
+2025-02-26 18:29:27,996 - DEBUG - audio.py:5 - Setting volume to 80%
+2025-02-26 18:29:27,996 - DEBUG - audio.py:9 - Setting volume to 80% gain -25 command minidsp gain -- -25
+2025-02-26 18:29:28,022 - DEBUG - audio.py:12 - CompletedProcess(args=['minidsp', 'gain', '--', '-25'], returncode=0, stdout='', stderr='')
+2025-02-26 18:29:42,172 - DEBUG - audio.py:5 - Setting volume to 100%
+2025-02-26 18:29:42,173 - DEBUG - audio.py:9 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-26 18:29:42,199 - DEBUG - audio.py:12 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-26 18:30:06,197 - DEBUG - audio.py:5 - Setting volume to 100%
+2025-02-26 18:30:06,198 - DEBUG - audio.py:10 - Setting volume to 100% gain 10 command minidsp gain -- 10
+2025-02-26 18:30:06,223 - DEBUG - audio.py:13 - CompletedProcess(args=['minidsp', 'gain', '--', '10'], returncode=0, stdout='', stderr='')
+2025-02-26 18:30:27,385 - DEBUG - audio.py:5 - Setting volume to 100%
+2025-02-26 18:30:27,385 - DEBUG - audio.py:10 - Setting volume to 100% gain 127 command minidsp gain -- 127
+2025-02-26 18:30:27,410 - DEBUG - audio.py:13 - CompletedProcess(args=['minidsp', 'gain', '--', '127'], returncode=0, stdout='', stderr='')
+2025-02-26 18:30:36,567 - DEBUG - audio.py:5 - Setting volume to 100%
+2025-02-26 18:30:36,568 - DEBUG - audio.py:10 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-26 18:30:36,592 - DEBUG - audio.py:13 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-26 18:46:49,689 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 18:46:49,692 - INFO - main.py:12 - Connected to MQTT Broker!
+2025-02-26 18:46:49,734 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:47:15,555 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 18:47:15,558 - INFO - main.py:12 - Connected to MQTT Broker!
+2025-02-26 18:47:15,599 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:47:15,599 - DEBUG - handlers.py:5 - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 18:47:15,599 - DEBUG - handlers.py:7 - Processing set_volume
+2025-02-26 18:47:15,599 - DEBUG - handlers.py:15 - ADJUSTING VOUME
+2025-02-26 18:51:49,524 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 18:51:49,526 - INFO - main.py:12 - Connected to MQTT Broker!
+2025-02-26 18:51:49,568 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:51:49,568 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 18:51:49,569 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-26 18:51:49,570 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 50
+2025-02-26 18:51:49,570 - DEBUG - audio.py:5 - Setting volume to 50%
+2025-02-26 18:51:49,570 - DEBUG - audio.py:9 - Setting volume to 50% gain -64 command minidsp gain -- -64
+2025-02-26 18:51:49,598 - DEBUG - audio.py:12 - CompletedProcess(args=['minidsp', 'gain', '--', '-64'], returncode=0, stdout='', stderr='')
+2025-02-26 18:54:34,861 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-26 18:54:34,864 - INFO - main.py:12 - Connected to MQTT Broker!
+2025-02-26 18:54:34,905 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:54:34,905 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 50, 'device_id': 'speaker_1'}
+2025-02-26 18:54:34,906 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-26 18:54:34,906 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 50
+2025-02-26 18:54:34,906 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-26 18:54:34,906 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-26 18:54:34,936 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-26 18:55:48,594 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 80,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:55:48,595 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 80, 'device_id': 'speaker_1'}
+2025-02-26 18:55:48,595 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-26 18:55:48,595 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 80
+2025-02-26 18:55:48,595 - DEBUG - audio.py:7 - Setting volume to 80%
+2025-02-26 18:55:48,595 - DEBUG - audio.py:11 - Setting volume to 80% gain -14 command minidsp gain -- -14
+2025-02-26 18:55:48,632 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-14'], returncode=0, stdout='', stderr='')
+2025-02-26 18:56:07,461 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 65,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:56:07,462 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 65, 'device_id': 'speaker_1'}
+2025-02-26 18:56:07,462 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-26 18:56:07,463 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 65
+2025-02-26 18:56:07,463 - DEBUG - audio.py:7 - Setting volume to 65%
+2025-02-26 18:56:07,464 - DEBUG - audio.py:11 - Setting volume to 65% gain -24 command minidsp gain -- -24
+2025-02-26 18:56:07,519 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-24'], returncode=0, stdout='', stderr='')
+2025-02-26 18:56:18,661 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-26 18:56:18,662 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-26 18:56:18,662 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-26 18:56:18,663 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-26 18:56:18,664 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-26 18:56:18,664 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-26 18:56:18,745 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 10:19:36,083 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 10:19:36,083 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 10:19:36,084 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-27 10:19:36,084 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-27 10:19:36,084 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 10:19:36,084 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 10:19:36,115 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 10:21:37,086 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 10:21:37,090 - INFO - main.py:12 - Connected to MQTT Broker!
+2025-02-27 10:21:37,131 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 10:21:37,131 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 10:21:37,131 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-27 10:21:37,131 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-27 10:21:37,131 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 10:21:37,131 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 10:21:37,155 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 10:24:34,950 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 10:24:38,410 - DEBUG - main.py:36 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 10:24:38,413 - INFO - main.py:13 - Connected to MQTT Broker!
+2025-02-27 10:24:38,455 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 10:24:38,455 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 10:24:38,455 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-27 10:24:38,455 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-27 10:24:38,455 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 10:24:38,455 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 10:24:38,472 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 10:34:11,552 - DEBUG - main.py:37 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 10:34:11,555 - INFO - main.py:13 - Connected to MQTT Broker!
+2025-02-27 10:34:11,555 - DEBUG - main.py:17 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 10:34:11,555 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 10:34:11,555 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-27 10:34:11,555 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-27 10:34:11,555 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 10:34:11,555 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 10:34:11,576 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 10:35:52,808 - DEBUG - main.py:38 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 10:35:52,810 - INFO - main.py:50 - Subscribing to topic /iot/device/test
+2025-02-27 10:35:52,810 - INFO - main.py:14 - Connected to MQTT Broker!
+2025-02-27 10:35:52,811 - DEBUG - main.py:18 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 10:35:52,811 - DEBUG - handlers.py:6 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 10:35:52,811 - DEBUG - handlers.py:8 - Processing set_volume
+2025-02-27 10:35:52,811 - DEBUG - handlers.py:17 - ADJUSTING VOUME to 100
+2025-02-27 10:35:52,811 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 10:35:52,811 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 10:35:52,827 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:00:35,358 - DEBUG - main.py:56 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:00:35,417 - INFO - main.py:68 - Subscribing to topic #
+2025-02-27 11:00:35,418 - INFO - main.py:29 - Connected to MQTT Broker!
+2025-02-27 11:00:35,419 - DEBUG - main.py:33 - Received message on lab/test-device: test message 3
+2025-02-27 11:00:35,420 - DEBUG - main.py:33 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:00:35,420 - DEBUG - main.py:33 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:00:35,420 - DEBUG - main.py:33 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:00:49,195 - DEBUG - main.py:33 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:00:50,667 - DEBUG - main.py:33 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:02:27,370 - DEBUG - main.py:33 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:03:18,830 - DEBUG - main.py:56 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:03:18,832 - INFO - main.py:68 - Subscribing to topic #
+2025-02-27 11:03:18,832 - INFO - main.py:29 - Connected to MQTT Broker!
+2025-02-27 11:03:18,833 - DEBUG - main.py:33 - Received message on lab/test-device: test message 3
+2025-02-27 11:03:18,833 - DEBUG - main.py:37 - <function process_message at 0x7081076bb1a0>
+2025-02-27 11:03:18,833 - DEBUG - test.py:4 - test message 3
+2025-02-27 11:05:32,115 - DEBUG - main.py:56 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:05:32,118 - INFO - main.py:68 - Subscribing to topic #
+2025-02-27 11:05:32,118 - INFO - main.py:29 - Connected to MQTT Broker!
+2025-02-27 11:05:32,118 - DEBUG - main.py:33 - Received message on lab/test-device: test message 3
+2025-02-27 11:05:32,119 - DEBUG - main.py:37 - <function process_message at 0x72cc193bf100>
+2025-02-27 11:05:59,811 - DEBUG - main.py:56 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:05:59,815 - INFO - main.py:68 - Subscribing to topic #
+2025-02-27 11:05:59,815 - INFO - main.py:29 - Connected to MQTT Broker!
+2025-02-27 11:05:59,856 - DEBUG - main.py:33 - Received message on lab/test-device: test message 3
+2025-02-27 11:05:59,856 - DEBUG - main.py:37 - <function process_message at 0x74e1a54bb100>
+2025-02-27 11:05:59,856 - DEBUG - test.py:5 - test message 3
+2025-02-27 11:09:59,611 - DEBUG - main.py:56 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:09:59,615 - INFO - main.py:68 - Subscribing to topic #
+2025-02-27 11:09:59,615 - INFO - main.py:29 - Connected to MQTT Broker!
+2025-02-27 11:09:59,657 - DEBUG - main.py:33 - Received message on lab/test-device: test message 3
+2025-02-27 11:09:59,658 - DEBUG - main.py:37 - <function process_message at 0x798e8e1f8540>
+2025-02-27 11:09:59,658 - DEBUG - test.py:17 - Not json payload test message 3
+2025-02-27 11:09:59,659 - DEBUG - main.py:33 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:09:59,659 - DEBUG - main.py:37 - <function process_message at 0x798e8e1bd1c0>
+2025-02-27 11:09:59,659 - DEBUG - audio.py:6 - {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:17:45,686 - DEBUG - main.py:66 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:17:45,689 - INFO - main.py:78 - Subscribing to topic #
+2025-02-27 11:17:45,689 - INFO - main.py:31 - Connected to MQTT Broker!
+2025-02-27 11:17:45,730 - DEBUG - main.py:35 - Received message on lab/test-device: test message 3
+2025-02-27 11:17:45,730 - DEBUG - main.py:42 - Not json payload, wrapping
+2025-02-27 11:20:49,672 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:20:49,674 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:20:49,675 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:20:49,716 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:20:49,716 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:22:32,961 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:22:32,963 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:22:32,964 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:22:33,005 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:22:33,005 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:22:33,005 - DEBUG - main.py:51 - <function process_message at 0x702c46fbf1a0>
+2025-02-27 11:23:28,407 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:23:28,409 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:23:28,410 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:23:28,410 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:23:28,410 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:23:28,410 - DEBUG - main.py:51 - <function process_message at 0x7e857bbbf100>
+2025-02-27 11:23:28,410 - DEBUG - test.py:4 - ["raw", "dGVzdCBtZXNzYWdlIDM="]
+2025-02-27 11:24:14,558 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:24:14,562 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:24:14,562 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:24:14,563 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:24:14,563 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:25:23,195 - DEBUG - main.py:71 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:25:23,197 - INFO - main.py:83 - Subscribing to topic #
+2025-02-27 11:25:23,197 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:25:23,198 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:25:23,198 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:27:02,865 - DEBUG - main.py:71 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:27:02,867 - INFO - main.py:83 - Subscribing to topic #
+2025-02-27 11:27:02,867 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:27:02,868 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:27:02,868 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:27:02,868 - DEBUG - main.py:52 - <function process_message at 0x7a4d2d9bf1a0>
+2025-02-27 11:27:02,868 - DEBUG - test.py:4 - {"raw": "dGVzdCBtZXNzYWdlIDM="}
+2025-02-27 11:27:46,713 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:27:46,717 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:27:46,718 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:27:46,759 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:27:46,759 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:27:46,760 - DEBUG - main.py:51 - <function process_message at 0x71f4024bb1a0>
+2025-02-27 11:27:46,760 - DEBUG - test.py:4 - {'raw': 'dGVzdCBtZXNzYWdlIDM='}
+2025-02-27 11:28:33,979 - DEBUG - main.py:70 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:28:33,981 - INFO - main.py:82 - Subscribing to topic #
+2025-02-27 11:28:33,981 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:28:33,982 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:28:33,982 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:28:33,982 - DEBUG - main.py:51 - <function process_message at 0x742950cbb1a0>
+2025-02-27 11:28:33,982 - DEBUG - test.py:4 - {'action': 'raw', 'data': 'dGVzdCBtZXNzYWdlIDM='}
+2025-02-27 11:28:33,982 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:28:33,982 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': 'dGVzdCBtZXNzYWdlIDM='}
+2025-02-27 11:28:33,982 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:28:33,982 - DEBUG - main.py:51 - <function process_message at 0x742950cb9260>
+2025-02-27 11:28:33,982 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:28:33,982 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:28:33,982 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:28:33,982 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:28:33,999 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:28:33,999 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:28:33,999 - DEBUG - main.py:51 - <function process_message at 0x742950cb9260>
+2025-02-27 11:28:33,999 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:28:33,999 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:28:33,999 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:28:33,999 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:28:34,035 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:28:34,036 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:28:34,036 - DEBUG - main.py:51 - <function process_message at 0x742950cbb1a0>
+2025-02-27 11:28:34,036 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:28:34,036 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:28:34,036 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:29:14,059 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:29:14,063 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:29:14,063 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:29:14,105 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:29:14,106 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:29:14,106 - DEBUG - main.py:50 - <function process_message at 0x7404071bf1a0>
+2025-02-27 11:29:14,106 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:29:14,106 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:29:14,107 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:29:14,107 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:14,107 - DEBUG - main.py:50 - <function process_message at 0x7404071bd260>
+2025-02-27 11:29:14,107 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:29:14,107 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:29:14,107 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:29:14,107 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:29:14,125 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:29:14,126 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:14,126 - DEBUG - main.py:50 - <function process_message at 0x7404071bd260>
+2025-02-27 11:29:14,126 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:29:14,126 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:29:14,126 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:29:14,126 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:29:14,156 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:29:14,156 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:14,156 - DEBUG - main.py:50 - <function process_message at 0x7404071bf1a0>
+2025-02-27 11:29:14,156 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:29:14,156 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:29:14,156 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:29:33,152 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:29:33,154 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:29:33,154 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:29:33,155 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:29:33,155 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:29:33,155 - DEBUG - main.py:50 - <function process_message at 0x70111c3bf100>
+2025-02-27 11:29:33,155 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:29:33,155 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:29:33,155 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:29:33,155 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:33,155 - DEBUG - main.py:50 - <function process_message at 0x70111c3bd1c0>
+2025-02-27 11:29:33,155 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:29:33,156 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:29:33,156 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:29:33,156 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:29:33,171 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:29:33,172 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:33,172 - DEBUG - main.py:50 - <function process_message at 0x70111c3bd1c0>
+2025-02-27 11:29:33,172 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:29:33,172 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:29:33,172 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:29:33,172 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:29:33,201 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:29:33,201 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:29:33,201 - DEBUG - main.py:50 - <function process_message at 0x70111c3bf100>
+2025-02-27 11:29:33,201 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:29:33,201 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:29:33,201 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:31:11,130 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:31:11,289 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:31:11,290 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:31:11,291 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:31:11,291 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:31:11,292 - DEBUG - main.py:50 - <function process_message at 0x7d3edbcbb1a0>
+2025-02-27 11:31:11,292 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:31:11,293 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:31:11,293 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:31:11,293 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:11,293 - DEBUG - main.py:50 - <function process_message at 0x7d3edbcb9260>
+2025-02-27 11:31:11,293 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:31:11,294 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:31:11,294 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:31:11,294 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:31:11,333 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:31:11,333 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:11,333 - DEBUG - main.py:50 - <function process_message at 0x7d3edbcb9260>
+2025-02-27 11:31:11,333 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:31:11,333 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:31:11,333 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:31:11,333 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:31:11,367 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:31:11,367 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:11,368 - DEBUG - main.py:50 - <function process_message at 0x7d3edbcbb1a0>
+2025-02-27 11:31:11,368 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:31:11,368 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:31:11,368 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:31:14,031 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:31:14,033 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:31:14,034 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:31:14,075 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:31:14,075 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:31:14,075 - DEBUG - main.py:50 - <function process_message at 0x756ffa1bf100>
+2025-02-27 11:31:14,076 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:31:14,076 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:31:14,076 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:31:14,076 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:14,076 - DEBUG - main.py:50 - <function process_message at 0x756ffa1bd1c0>
+2025-02-27 11:31:14,076 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:31:14,076 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:31:14,076 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:31:14,076 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:31:14,093 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:31:14,093 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:14,093 - DEBUG - main.py:50 - <function process_message at 0x756ffa1bd1c0>
+2025-02-27 11:31:14,093 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:31:14,093 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:31:14,093 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:31:14,093 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:31:14,131 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:31:14,131 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:31:14,132 - DEBUG - main.py:50 - <function process_message at 0x756ffa1bf100>
+2025-02-27 11:31:14,132 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:31:14,132 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:31:14,132 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:34:06,183 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:34:06,185 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:34:06,185 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:34:06,186 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:34:06,186 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:34:06,186 - DEBUG - main.py:50 - <function process_message at 0x70187fdbb1a0>
+2025-02-27 11:34:06,186 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:34:06,186 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:34:06,186 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:34:06,186 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:34:06,186 - DEBUG - main.py:50 - <function process_message at 0x70187fdb9260>
+2025-02-27 11:34:06,186 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:34:06,186 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:34:06,186 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:34:06,186 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:34:06,202 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:34:06,202 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:34:06,202 - DEBUG - main.py:50 - <function process_message at 0x70187fdb9260>
+2025-02-27 11:34:06,202 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:34:06,203 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:34:06,203 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:34:06,203 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:34:06,233 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:34:06,233 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:34:06,233 - DEBUG - main.py:50 - <function process_message at 0x70187fdbb1a0>
+2025-02-27 11:34:06,233 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:34:06,233 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:34:06,233 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:38:43,466 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:38:43,469 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:38:43,470 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:38:43,511 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:38:43,511 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:38:43,511 - DEBUG - main.py:50 - <function process_message at 0x7a447febb1a0>
+2025-02-27 11:38:43,511 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:38:43,511 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:38:43,511 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:38:43,511 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:38:43,512 - DEBUG - main.py:50 - <function process_message at 0x7a447feb9260>
+2025-02-27 11:38:43,512 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:38:43,512 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:38:43,512 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:38:43,512 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:38:43,532 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:38:43,532 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:38:43,532 - DEBUG - main.py:50 - <function process_message at 0x7a447feb9260>
+2025-02-27 11:38:43,532 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:38:43,532 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:38:43,532 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:38:43,532 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:38:43,563 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:38:43,564 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:38:43,564 - DEBUG - main.py:50 - <function process_message at 0x7a447febb1a0>
+2025-02-27 11:38:43,564 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:38:43,564 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:38:43,564 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:47:29,038 - DEBUG - main.py:36 - Received message on /iot/device/test: 
+2025-02-27 11:47:29,038 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:47:29,039 - DEBUG - main.py:50 - <function process_message at 0x7a447febb1a0>
+2025-02-27 11:47:29,039 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:47:29,039 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:47:29,039 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:47:56,782 - DEBUG - main.py:36 - Received message on /iot/controls/audio: 
+2025-02-27 11:47:56,783 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:47:56,783 - DEBUG - main.py:50 - <function process_message at 0x7a447feb9260>
+2025-02-27 11:47:56,784 - DEBUG - audio.py:7 - Processing raw
+2025-02-27 11:47:56,784 - ERROR - audio.py:12 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:48:11,612 - DEBUG - main.py:36 - Received message on /iot/control/audio: 
+2025-02-27 11:48:11,612 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:48:11,612 - DEBUG - main.py:50 - <function process_message at 0x7a447feb9260>
+2025-02-27 11:48:11,612 - DEBUG - audio.py:7 - Processing raw
+2025-02-27 11:48:11,612 - ERROR - audio.py:12 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:48:16,611 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:48:16,614 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:48:16,614 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:48:16,614 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:48:16,615 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:48:16,615 - DEBUG - main.py:50 - <function process_message at 0x78812dabb100>
+2025-02-27 11:48:16,615 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:48:16,615 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:48:16,615 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:48:16,615 - DEBUG - main.py:36 - Received message on /iot/control/audio: {
+  "action": "set_volume",
+  "value": 50,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:48:16,615 - DEBUG - main.py:50 - <function process_message at 0x78812dab91c0>
+2025-02-27 11:48:16,615 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:48:16,615 - DEBUG - audio.py:16 - ADJUSTING VOUME to 50
+2025-02-27 11:48:16,615 - DEBUG - audio.py:7 - Setting volume to 50%
+2025-02-27 11:48:16,615 - DEBUG - audio.py:11 - Setting volume to 50% gain -35 command minidsp gain -- -35
+2025-02-27 11:48:16,631 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '-35'], returncode=0, stdout='', stderr='')
+2025-02-27 11:48:16,631 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:48:16,631 - DEBUG - main.py:50 - <function process_message at 0x78812dab91c0>
+2025-02-27 11:48:16,631 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:48:16,631 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:48:16,631 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:48:16,631 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:48:16,662 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:48:16,662 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:48:16,662 - DEBUG - main.py:50 - <function process_message at 0x78812dabb100>
+2025-02-27 11:48:16,662 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:48:16,662 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:48:16,662 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:49:09,687 - DEBUG - main.py:36 - Received message on /iot/control/audio: 
+2025-02-27 11:49:09,687 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:49:09,687 - DEBUG - main.py:50 - <function process_message at 0x78812dab91c0>
+2025-02-27 11:49:09,688 - DEBUG - audio.py:7 - Processing raw
+2025-02-27 11:49:09,688 - ERROR - audio.py:12 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:49:14,417 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:49:14,420 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:49:14,420 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:49:14,461 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:49:14,462 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:49:14,462 - DEBUG - main.py:50 - <function process_message at 0x7704e7fbb100>
+2025-02-27 11:49:14,462 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:49:14,462 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:49:14,462 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:49:14,463 - DEBUG - main.py:36 - Received message on /iot/controls/audio: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:49:14,463 - DEBUG - main.py:50 - <function process_message at 0x7704e7fb91c0>
+2025-02-27 11:49:14,463 - DEBUG - audio.py:7 - Processing set_volume
+2025-02-27 11:49:14,463 - DEBUG - audio.py:16 - ADJUSTING VOUME to 100
+2025-02-27 11:49:14,463 - DEBUG - audio.py:7 - Setting volume to 100%
+2025-02-27 11:49:14,463 - DEBUG - audio.py:11 - Setting volume to 100% gain 0 command minidsp gain -- 0
+2025-02-27 11:49:14,479 - DEBUG - audio.py:14 - CompletedProcess(args=['minidsp', 'gain', '--', '0'], returncode=0, stdout='', stderr='')
+2025-02-27 11:49:14,479 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "set_volume",
+  "value": 100,
+  "device_id": "speaker_1"
+}
+2025-02-27 11:49:14,479 - DEBUG - main.py:50 - <function process_message at 0x7704e7fbb100>
+2025-02-27 11:49:14,479 - DEBUG - test.py:4 - {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:49:14,479 - DEBUG - test.py:6 - Processing set_volume
+2025-02-27 11:49:14,479 - ERROR - test.py:11 - Unknown action: {'action': 'set_volume', 'value': 100, 'device_id': 'speaker_1'}
+2025-02-27 11:49:22,813 - DEBUG - main.py:36 - Received message on /iot/controls/audio: 
+2025-02-27 11:49:22,814 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:49:22,814 - DEBUG - main.py:50 - <function process_message at 0x7704e7fb91c0>
+2025-02-27 11:49:22,814 - DEBUG - audio.py:7 - Processing raw
+2025-02-27 11:49:22,814 - ERROR - audio.py:12 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:49:32,330 - DEBUG - main.py:36 - Received message on /iot/device/test: 
+2025-02-27 11:49:32,330 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:49:32,330 - DEBUG - main.py:50 - <function process_message at 0x7704e7fbb100>
+2025-02-27 11:49:32,330 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:49:32,330 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:49:32,330 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:49:36,564 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:49:36,568 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:49:36,568 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:49:36,609 - DEBUG - main.py:36 - Received message on lab/test-device: test message 3
+2025-02-27 11:49:36,609 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:49:36,610 - DEBUG - main.py:50 - <function process_message at 0x79a5fddbf100>
+2025-02-27 11:49:36,610 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:49:36,610 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:49:36,610 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:50:03,865 - DEBUG - main.py:36 - Received message on lab/test-device: 
+2025-02-27 11:50:03,865 - DEBUG - main.py:43 - Not json payload, wrapping
+2025-02-27 11:50:03,865 - DEBUG - main.py:50 - <function process_message at 0x79a5fddbf100>
+2025-02-27 11:50:03,866 - DEBUG - test.py:4 - {'action': 'raw', 'data': None}
+2025-02-27 11:50:03,866 - DEBUG - test.py:6 - Processing raw
+2025-02-27 11:50:03,866 - ERROR - test.py:11 - Unknown action: {'action': 'raw', 'data': None}
+2025-02-27 11:50:08,232 - DEBUG - main.py:69 - client_id samp_studio_9eafd3c0558a4b1bbb7fb7e06d848a52 user samp_device password Device2@
+2025-02-27 11:50:08,235 - INFO - main.py:81 - Subscribing to topic #
+2025-02-27 11:50:08,235 - INFO - main.py:32 - Connected to MQTT Broker!
+2025-02-27 11:50:52,091 - DEBUG - main.py:36 - Received message on /iot/device/test: {
+  "action": "ping"
+}
+2025-02-27 11:50:52,092 - DEBUG - main.py:50 - <function process_message at 0x72c0a6fbf100>
+2025-02-27 11:50:52,093 - DEBUG - test.py:4 - {'action': 'ping'}
+2025-02-27 11:50:52,093 - DEBUG - test.py:6 - Processing ping
+2025-02-27 11:50:52,093 - DEBUG - test.py:14 - Ping {'action': 'ping'}
