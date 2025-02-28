@@ -16,11 +16,11 @@ class ControlPanel():
 
         for item_config in config["inputs"]:
             if item_config["type"] == "potentiometer":
-                self._inputs.append(Potentiometer(item_config))
+                self._inputs.append(Potentiometer.get(item_config))
             elif item_config["type"] == "switch":
-                self._inputs.append(Switch(item_config))
+                self._inputs.append(Switch.get(item_config))
             elif item_config["type"] == "rotary":
-                self._inputs.append(Rotary(item_config))
+                self._inputs.append(Rotary.get(item_config))
             else:
                 raise NotImplementedError(f"{item_config}")
                 
@@ -30,7 +30,7 @@ class ControlPanel():
 
         for item_config in config["outputs"]:
             if item_config["type"] == "display":
-                self._display = Display(item_config)
+                self._display = Display.get(item_config)
                 #outputs.append(Display(item_config))
             else:
                 NotImplementedError(f"{item_config}")
@@ -65,6 +65,10 @@ class ControlPanel():
         helps.log_debug(f'{id}:{display_name} = {value}')
         if id == 1:
             mqtt.publish_action('/iot/controls/audio','set_volume',value)
+        if id == 31:
+            #on_press is 0; need to swap
+            if value == 0: 
+                mqtt.publish_action('/iot/controls/audio','pause',1)
 
             
             

@@ -1,3 +1,6 @@
-from pico import main
+import loop
+import time
 
-main.run()
+time.sleep(1)
+
+loop.run()

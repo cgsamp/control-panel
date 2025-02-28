@@ -5,12 +5,13 @@ JSON_PAYLOAD='{
 }'
 
 JSON_PAYLOAD='{
-  "action": "ping"
+  "action": "pause",
+  "value": 1
 }'
 
-TOPIC='/iot/device/test'
+#TOPIC='/iot/device/test'
 #TOPIC='lab/test-device'
-#TOPIC='/iot/controls/audio'
+TOPIC='/iot/controls/audio'
 
 mosquitto_pub -d \
 -u samp_device \

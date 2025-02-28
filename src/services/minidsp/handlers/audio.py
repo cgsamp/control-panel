@@ -1,23 +1,44 @@
 import subprocess
-from common.logger import logger
+import logging
+from pynput.keyboard import Controller, Key
+
+logger = logging.getLogger(__name__)
 
 ZERO_VOLUME = -70
+keyboard = None
 
 def set_volume(volume_percent):
-    logger.debug(f'Setting volume to {volume_percent}%')
-
     gain = round(ZERO_VOLUME * (100 - volume_percent) / 100)
     command = f'minidsp gain -- {gain}'
-    logger.debug(f'Setting volume to {volume_percent}% gain {gain} command {command}')
-
     result = subprocess.run(command.split(),capture_output=True, text=True)
-    logger.debug(result)
+    return result
 
 
-def mute(value):
-    if value:
-        logger.debug('Muting')
-    else:
-        logger.debug('Unmuting')
+def set_mute(value):
+    pass
 
-#set_volume(100)
+def set_pause(value):
+    global keyboard
+    if keyboard is None:
+        keyboard = Controller()
+
+    keyboard.press(Key.media_play_pause)
+    keyboard.release(Key.media_play_pause)
+
+def next():
+    global keyboard
+    if keyboard is None:
+        keyboard = Controller()
+
+    keyboard.press(Key.media_next)
+    keyboard.release(Key.media_next)
+    pass
+
+def previous():
+    global keyboard
+    if keyboard is None:
+        keyboard = Controller()
+
+    keyboard.press(Key.media_previous)
+    keyboard.release(Key.media_previos)
+

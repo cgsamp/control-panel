@@ -1,4 +1,5 @@
-from common.logger import logger
+import logging
+logger = logging.getLogger(__name__)
 
 def process_message(client, topic, payload):
     logger.debug(payload)

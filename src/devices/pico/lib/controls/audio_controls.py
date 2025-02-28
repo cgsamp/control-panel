@@ -5,13 +5,40 @@ from controls.hybotics_ht16k33 import segments
 from common import helps
 import sys
 
+
+
+
 class AudioControl(object):
-    def __init__(self, id, display_name, assignment, location, config = None):
-        helps.log_debug(f'Initializing control {display_name} config {config}')
-        self._id = id
-        self._display_name = display_name
-        self._assignment = assignment
-        self._location = location
+    _control_instances = {}
+    @classmethod
+    def get(cls,	config):
+        if config["id"] in cls._control_instances:
+            helps.log_debug('Found {config["id"]}')
+            return cls._control_instances[config['id']]
+        
+        helps.log_debug('Creating {config["id"]}')
+        instance = cls(config)
+        cls._control_instances[config['id']] = instance
+        return instance
+            
+    
+    def __init__(self, config):
+        helps.log_debug(f'Initializing {config}')
+        self._id = config["id"]
+        if 'display_name' in config:
+            self._display_name = config["display_name"]
+        else:
+            self._display_name = ""
+            
+        if 'assignment' in config:
+            self._assignment = config["assignment"]
+        else:
+            self._assignment = ""
+            
+        if 'location' in config:
+            self._location = config["location"]
+        else:
+            self._location = config["location"]
         
     def get_location(self):
         return self._location
@@ -34,12 +61,7 @@ class Potentiometer(AudioControl):
     def __init__(self, config):
         if config is None:
             raise NotImplementedError("Pot non-json config")
-        super().__init__(
-            id = config["id"],
-            display_name = config["display_name"],
-            assignment = config["assignment"],
-            location = config["location"]
-        )            
+        super().__init__(config)
             
         self._wiper_pin_number = config["wiper_pin"]
         self._polarity = config["polarity"]
@@ -64,15 +86,9 @@ class Switch(AudioControl):
     def __init__(self, config):
         if config is None:
             raise NotImplementedError("Pot non-json config")
-        assignment = ""
-        if 'assignment' in config:
-            assignment = config['assignment']
-        super().__init__(
-            id = config["id"],
-            display_name = config["display_name"],
-            assignment = assignment,
-            location = config["location"]
-        )
+        if 'assignment' not in config:
+            config['assignment'] = ""
+        super().__init__(config)
         self._pin_number = config["pin"]
         self._pin = Pin(self._pin_number,Pin.IN,Pin.PULL_UP)
         self._current_value = -1
@@ -91,15 +107,9 @@ class Rotary(AudioControl):
     def __init__(self, config):
         if config is None:
             raise NotImplementedError("Pot non-json config")
-        assignment = ""
-        if 'assignment' in config:
-            assignment = config['assignment']
-        super().__init__(
-            id = config["id"],
-            display_name = config["display_name"],
-            assignment = assignment,
-            location = config["location"]
-        )
+        if 'assignment' not in config:
+            config['assignment'] = ""
+        super().__init__(config)
         self._clk_pin_number = config["pin_a"]
         self._dt_pin_number =  config["pin_b"]
         
@@ -127,15 +137,9 @@ class Display(AudioControl):
     def __init__(self, config):
         if config is None:
             raise NotImplementedError("Pot non-json config")
-        if 'assignment' in config:
-            assignment = config['assignment']
-        super().__init__(
-            id = config["id"],
-            display_name = config["display_name"],
-            assignment = assignment,
-            location = config["location"],
-            config = config
-        )
+        if 'assignment' not in config:
+            config['assignment'] = ""
+        super().__init__(config)
         self._scl_pin_number = config["scl_pin"]
         self._sda_pin_number =  config["sca_pin"]
         i2c = I2C(0,sda=self._sda_pin_number,scl=self._scl_pin_number, freq=400000)
@@ -164,6 +168,27 @@ class Display(AudioControl):
             print_string += ' '
         print_string += str(value)
         self._display.print(print_string)
+
+
+    def flip_colon(self):
+        self._display.colon = not self._display.colon
+
+    @property
+    def colon(self):
+        return self._display.colon
+
+    @colon.setter
+    def colon(self,value):
+        if value != self._display.colon:
+            self._display.colon = value
+
+    @property
+    def brightness(self):
+        return self._display.brightness
+
+    @brightness.setter
+    def brightness(self,value):
+        self._display.brightness = value
 
     @property
     def on(self):
