@@ -21,7 +21,7 @@ __repo__ = "https://github.com/hybotics/Hybotics_Micropython_HT16K33.git"
 
 from micropython import const
 from utime import sleep
-from cpy_mpy_bus_device.i2c_device import I2CDevice 
+from controls.i2c_device import I2CDevice 
 
 _HT16K33_BLINK_CMD = const(0x80)
 _HT16K33_BLINK_DISPLAYON = const(0x01)

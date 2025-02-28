@@ -1,11 +1,13 @@
 from machine import Pin, ADC, I2C
-from rotary.rotary_irq_rp2 import RotaryIRQ
-from hybotics_ht16k33.segments import Seg7x4
-from hybotics_ht16k33 import segments
-
+from controls.rotary.rotary_irq_rp2 import RotaryIRQ
+from controls.hybotics_ht16k33.segments import Seg7x4
+from controls.hybotics_ht16k33 import segments
+from common import helps
+import sys
 
 class AudioControl(object):
-    def __init__(self, id, display_name, assignment, location):
+    def __init__(self, id, display_name, assignment, location, config = None):
+        helps.log_debug(f'Initializing control {display_name} config {config}')
         self._id = id
         self._display_name = display_name
         self._assignment = assignment
@@ -131,7 +133,8 @@ class Display(AudioControl):
             id = config["id"],
             display_name = config["display_name"],
             assignment = assignment,
-            location = config["location"]
+            location = config["location"],
+            config = config
         )
         self._scl_pin_number = config["scl_pin"]
         self._sda_pin_number =  config["sca_pin"]
@@ -143,13 +146,14 @@ class Display(AudioControl):
         self._display = Seg7x4(i2c)
         self._display.brightness = 0.5
         self._display.colon = True
-        self._on = False
-        self._display.on = False
+        self._on = True
+        self._display.on = True
         self._idle = False
         self._wake_brightness = self._display.brightness
         
 
     def show_control_status(self,location,value):
+        #helps.log_debug(f'Show control status {location} value {value}')
         if self.idle:
             self.idle = False
         print_string = ''
@@ -167,6 +171,7 @@ class Display(AudioControl):
 
     @on.setter
     def on(self, turn_on):
+        helps.log_debug(f'On {turn_on}')
         if turn_on != self._on:
             self._display.on = turn_on
         

@@ -13,7 +13,7 @@ Segment Displays
 __version__ = "0.0.0-auto.0"
 __repo__ = "https://github.com/hybotics/Hybotics_Micropython_HT16K33.git"
 
-from hybotics_ht16k33.ht16k33 import HT16K33
+from controls.hybotics_ht16k33.ht16k33 import HT16K33
 from utime import sleep
 
 #   The number of seconds to delay between writing segments

@@ -1,5 +1,6 @@
-from common import wifi
-from common import mqtt
+import loop
+import time
 
-wifi.connect()
-mqtt.publish('/iot/device/test','Connection test')
+#time.sleep(5)
+
+loop.run()

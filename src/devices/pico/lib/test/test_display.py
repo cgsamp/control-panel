@@ -1,5 +1,10 @@
+import sys
+import os
+
+
+
 from machine import Pin, I2C
-from hybotics_ht16k33.segments import Seg7x4
+from controls.hybotics_ht16k33.segments import Seg7x4
 
 SCL = Pin(21,Pin.IN,Pin.PULL_UP)
 SDA = Pin(20,Pin.IN,Pin.PULL_UP)

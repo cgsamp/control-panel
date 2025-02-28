@@ -1,10 +1,12 @@
 from umqtt.robust import MQTTClient
 from common import helps
+import json
 
 _client = None
 _connected = False
 
 def _create_client():
+    global _client
     config = helps.get_config("mqtt")
     server_config = min(config["servers"], key=lambda x: x["priority"])
     client_id = server_config["client_id"]+helps.get_machine_id()
@@ -16,6 +18,8 @@ def _create_client():
                 )
 
 def publish_raw(topic, message, keepalive=True):
+    global _client
+    global _connected
     if _client is None:
         helps.log(helps.LOG_DEBUG,f'Creating client')
         _create_client()
@@ -37,11 +41,11 @@ def publish_raw(topic, message, keepalive=True):
         _connected = False
         
 def publish_action(topic,action,value,keepalive=True):
-    structured_message = []
+    structured_message = {}
     structured_message['action'] = action
     structured_message['value'] = value
     structured_message['machine_id'] = helps.get_machine_id()
-    structured_message['time_micros'] = helps.ts()
+    structured_message['time_micros'] = helps.ts_micros()
     structured_message['timestamp'] = helps.ts_formatted()
     publish_raw(topic,json.dumps(structured_message),keepalive)
 
